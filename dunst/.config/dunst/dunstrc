@@ -4,8 +4,9 @@
     format = "<span font="Roboto Mono Medium for Powerline 14">%s</span>\n<span font="Roboto Mono for Powerline Regular 10">%b</span>"
     alignment = center
 
-    bounce_freq = 0
     follow = keyboard
+    origin = top-right
+    offset = 10x35
     width = 400
     height = 300
     horizontal_padding = 8
@@ -36,17 +37,9 @@
     browser = /usr/bin/luakit
     dmenu = SSH_AUTH_SOCK=/run/user/1000/gnupg/S.gpg-agent.ssh /usr/bin/rofi -dmenu -p 
 
-    startup_notification = false
-
     stack_duplicates = true
     hide_duplicate_count = false
     corner_radius = 4
-
-[shortcuts]
-    close = ctrl+space
-    close_all = ctrl+shift+space
-    history = ctrl+shift+grave
-    context = ctrl+shift+period
 
 [urgency_low]
     background = "#222222"
