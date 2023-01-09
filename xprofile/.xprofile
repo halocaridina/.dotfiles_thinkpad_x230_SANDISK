@@ -27,4 +27,4 @@ fi
 
 # Set screenlock for all desktops
 ##/usr/bin/xss-lock --ignore-sleep -- /usr/bin/i3lock-fancy -f 'Terminus-(TTF)-Bold' -t "Hello Scott, waiting for your fingerprint..." &
-/usr/bin/xss-lock -- i3lock -f -b -i /home/srsantos/.i3/wallpapers/dark-metal-grids/dark-metal-grid-8.png &
+/usr/bin/xss-lock -- i3lock -f -b -i /home/srsantos/.i3/wallpapers/dark-metal-grids/dark-metal-grid-8_1366x768.png &

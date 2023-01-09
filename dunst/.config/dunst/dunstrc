@@ -6,7 +6,7 @@
 
     follow = keyboard
     origin = top-right
-    offset = 10x35
+    offset = 10x30
     width = 400
     height = 300
     horizontal_padding = 8

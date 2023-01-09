@@ -31,9 +31,6 @@ export SSH_AUTH_SOCK
 
 # Finally start a WM of your choice, with i3 bling being the default
 case $WM in
-herb)
-	exec /usr/bin/herbstluftwm --locked
-	;;
 i3)
 	exec /usr/bin/i3 -c /home/srsantos/.i3/bling.conf
 	;;
