@@ -14,13 +14,13 @@ fi
 /usr/bin/xset r rate 400 44
 
 # Turn off caps locks
-###/usr/bin/setxkbmap -option caps:none
+/usr/bin/setxkbmap -option caps:none
 
 # Enable killing X via key combo
 /usr/bin/setxkbmap -option terminate:ctrl_alt_bksp
 
 # Enable caps lock to shift for UK/GB keyboard
-/usr/local/bin/swap_caps_lshift.sh
+###/usr/local/bin/swap_caps_lshift.sh
 
 # Set auto-suspend after 30 mins of inactivity
 /usr/bin/xautolock -time 30 -locker "systemctl suspend" -detectsleep &

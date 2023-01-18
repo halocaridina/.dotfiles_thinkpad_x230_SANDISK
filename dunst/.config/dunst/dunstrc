@@ -25,6 +25,8 @@
     word_wrap = yes
 
     icon_position = left
+##    enable_recursive_icon_lookup = true
+##    icon_theme = "Papirus-Dark, Papirus"
     icon_path = /home/srsantos/.config/dunst/icons
     max_icon_size = 96
 
@@ -39,7 +41,7 @@
 
     stack_duplicates = true
     hide_duplicate_count = false
-    corner_radius = 4
+    corner_radius = 8
 
 [urgency_low]
     background = "#222222"

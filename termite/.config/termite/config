@@ -9,7 +9,7 @@ allow_bold = false
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = false
-##font = Terminus 12px
+##font = Terminus 14px
 font = Roboto Mono for Powerline, FontAwesome 9
 ##font = Pragmata Pro for Powerline, FontAwesome 10
 scrollback_lines = 65535
@@ -35,10 +35,10 @@ browser = luakit
 #word_chars = -A-Za-z0-9,./?%&#:_=+@~
 
 [colors]
-# Tango from terminal.sexy
-foreground      = #babdb6
-foreground_bold = #babdb6
-cursor          = #babdb6
+# Tango from terminal.sexy  #babdb6 for first three below
+foreground      = #D3D7CF
+foreground_bold = #D3D7CF
+cursor          = #D3D7CF
 background = rgba(0, 0, 0, 0.10)
 
 # black
